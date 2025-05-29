@@ -62,3 +62,7 @@ body {
     position: absolute;
     top: 1.5em;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
