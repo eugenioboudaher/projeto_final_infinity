@@ -43,6 +43,11 @@ header {
     align-items: center;
 }
 
+header h2 a{
+    color: yellow;
+    text-decoration: none;
+}
+
 .navHeader ul{
     display: flex;
     justify-content: space-between;
@@ -59,8 +64,37 @@ header {
     align-items: center;
 }
 
+.navHeader ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+
 .navHeader ul li:hover {    
     border: 1px solid var(--batman-black);
     background-color: color-mix(in srgb, var(--batman-blue) , var(--batman-white) 10%);
     
+}
+
+main {
+    width: 80%;
+    color: var(--batman-yellow);
+    padding: 5em;
+}
+
+fieldset {
+    border: 1px solid var(--batman-yellow);
+    width: 100%;
+    height: 50vh;
+    padding: 5em;
+    gap: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCadastro {
+    background-color: transparent;
+    border: 0.5px solid var(--batman-yellow);
+    color: var(--batman-yellow);
+    padding: 0.5em;
 }

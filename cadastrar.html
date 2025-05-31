@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style></style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_system.css">
+    <style>
+        ul li:nth-child(2) {
+            background-color: yellow;
+            color: black;
+            font-weight: bolder;
+        }
+        ul li:nth-child(2):hover  {
+            background-color: yellow;
+            color: black;
+            font-weight: bolder;
+        }
+        
+        ul li:nth-child(2) a{
+
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nome">
+            <h2><a href="system.html">Wayne corp</a></h2>
+        </div>
+        <div class="navHeader">
+            <ul>
+                <li><a href="estoque.html">Estoque</a></li>
+                <li><a href="cadastrar.html">Cadastrar</a></li>
+                <li><a href="">Vendas</a></li>
+                <li><a href="">Caixa</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <fieldset>
+            <legend for="">Cadastro de produtos</legend>
+
+            <label for="">Nome do Produto</label>
+            <input type="text" class="inputCadastro">
+            <label for="">Tipo</label>
+            <input type="text" class="inputCadastro">
+            <label for="">Quantidade</label>
+            <input type="number" class="inputCadastro">
+        </fieldset>
+    </main>
+    <script src="cadastro.js"></script>
+</body>
+</html>
